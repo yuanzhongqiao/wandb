@@ -1,6 +1,6 @@
 <div class="Box-sc-g0xbh4-0 QkQOb js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><p align="center" dir="auto">
-  <a target="_blank" rel="noopener noreferrer" href="/wandb/wandb/blob/main/assets/logo-dark.svg#gh-dark-mode-only" _msthidden="1"><img src="/wandb/wandb/raw/main/assets/logo-dark.svg#gh-dark-mode-only" width="600" alt="Weights &amp; Biases" style="max-width: 100%;" _msthidden="A" _mstalt="352612" _msthash="325"></a>
-  <a target="_blank" rel="noopener noreferrer" href="/wandb/wandb/blob/main/assets/logo-light.svg#gh-light-mode-only"><img src="/wandb/wandb/raw/main/assets/logo-light.svg#gh-light-mode-only" width="600" alt="权重和偏差" style="max-width: 100%;" _mstalt="352612" _msthash="326"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/wandb/wandb/blob/main/assets/logo-dark.svg#gh-dark-mode-only" _msthidden="1"><img src="https://github.com/wandb/wandb/raw/main/assets/logo-dark.svg#gh-dark-mode-only" width="600" alt="Weights &amp; Biases" style="max-width: 100%;" _msthidden="A" _mstalt="352612" _msthash="325"></a>
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/wandb/wandb/blob/main/assets/logo-light.svg#gh-light-mode-only"><img src="https://github.com/wandb/wandb/raw/main/assets/logo-light.svg#gh-light-mode-only" width="600" alt="权重和偏差" style="max-width: 100%;" _mstalt="352612" _msthash="326"></a>
 </p>
 <p align="center" dir="auto">
 <a href="https://pypi.python.org/pypi/wandb" rel="nofollow"><img src="https://camo.githubusercontent.com/dd40995ddde5aa05b24ba55c3b232cbd09f2e0baca6bb824903059189a9d6f05/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f77616e6462" data-canonical-src="https://img.shields.io/pypi/v/wandb" style="max-width: 100%;"></a>
@@ -79,27 +79,13 @@
 </li>
 </ol>
 <div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install wandb</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install wandb" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+  
   </div></div>
 <ol start="3" dir="auto">
 <li _msttexthash="32785805" _msthash="344">第三，登录W&amp;B：</li>
 </ol>
 <div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-s1">wandb</span>.<span class="pl-en">login</span>()</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="wandb.login()" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <ol start="4" dir="auto">
 <li _msttexthash="224305393" _msthash="345">使用下面的示例代码片段作为模板，将 W&amp;B 集成到您的 Python 脚本中：</li>
@@ -121,58 +107,12 @@
 
 <span class="pl-c"># Mark the run as finished, and finish uploading all data</span>
 <span class="pl-s1">run</span>.<span class="pl-en">finish</span>()</pre><div class="zeroclipboard-container">
-    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import wandb
-
-# Start a W&amp;B Run with wandb.init
-run = wandb.init(project=&quot;my_first_project&quot;)
-
-# Save model inputs and hyperparameters in a wandb.config object
-config = run.config
-config.learning_rate = 0.01
-
-# Model training code here ...
-
-# Log metrics over time to visualize performance with wandb.log
-for i in range(10):
-    run.log({&quot;loss&quot;: ...})
-
-# Mark the run as finished, and finish uploading all data
-run.finish()" tabindex="0" role="button">
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
-    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
-</svg>
-      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
-    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
-</svg>
-    </clipboard-copy>
+   
   </div></div>
 <p dir="auto" _msttexthash="1139676278" _msthash="346">就是这样！导航到W&amp;B应用程序以查看您的第一个W&amp;B实验的仪表板。使用W&amp;B应用程序在一个统一的地方比较多个实验，深入研究单次运行的结果，以及更多！</p>
 <p align="center" dir="auto" _msthidden="4">
-<animated-image data-catalyst="" _msthidden="4" style="width: 100%;"><a target="_blank" rel="noopener noreferrer" href="/wandb/wandb/blob/main/assets/wandb_demo_experiments.gif" data-target="animated-image.originalLink"><img src="/wandb/wandb/raw/main/assets/wandb_demo_experiments.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
-      <span class="AnimatedImagePlayer" data-target="animated-image.player" hidden="" _msthidden="4">
-        <a data-target="animated-image.replacedLink" class="AnimatedImagePlayer-images" href="https://github.com/wandb/wandb/blob/main/assets/wandb_demo_experiments.gif" target="_blank" _msthidden="1">
-          
-        <span data-target="animated-image.imageContainer" _msthidden="1">
-            <img data-target="animated-image.replacedImage" alt="wandb_demo_experiments.gif" class="AnimatedImagePlayer-animatedImage" src="https://github.com/wandb/wandb/raw/main/assets/wandb_demo_experiments.gif" _msthidden="A" _mstalt="679055" _msthash="347" style="display: block; opacity: 1;">
-          <canvas class="AnimatedImagePlayer-stillImage" aria-hidden="true" width="807" height="345"></canvas></span></a>
-        <button data-target="animated-image.imageButton" class="AnimatedImagePlayer-images" tabindex="-1" aria-label="Play wandb_demo_experiments.gif" hidden="" _msthidden="A" _mstaria-label="864786" _msthash="348"></button>
-        <span class="AnimatedImagePlayer-controls" data-target="animated-image.controls" hidden="" _msthidden="2">
-          <button data-target="animated-image.playButton" class="AnimatedImagePlayer-button" aria-label="Play wandb_demo_experiments.gif" _msthidden="A" _mstaria-label="864786" _msthash="349">
-            <svg aria-hidden="true" focusable="false" class="octicon icon-play" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path d="M4 13.5427V2.45734C4 1.82607 4.69692 1.4435 5.2295 1.78241L13.9394 7.32507C14.4334 7.63943 14.4334 8.36057 13.9394 8.67493L5.2295 14.2176C4.69692 14.5565 4 14.1739 4 13.5427Z">
-            </path></svg>
-            <svg aria-hidden="true" focusable="false" class="octicon icon-pause" width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
-              <rect x="4" y="2" width="3" height="12" rx="1"></rect>
-              <rect x="9" y="2" width="3" height="12" rx="1"></rect>
-            </svg>
-          </button>
-          <a data-target="animated-image.openButton" aria-label="Open wandb_demo_experiments.gif in new window" class="AnimatedImagePlayer-button" href="https://github.com/wandb/wandb/blob/main/assets/wandb_demo_experiments.gif" target="_blank" _msthidden="A" _mstaria-label="1524887" _msthash="350">
-            <svg aria-hidden="true" class="octicon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-              <path fill-rule="evenodd" d="M10.604 1h4.146a.25.25 0 01.25.25v4.146a.25.25 0 01-.427.177L13.03 4.03 9.28 7.78a.75.75 0 01-1.06-1.06l3.75-3.75-1.543-1.543A.25.25 0 0110.604 1zM3.75 2A1.75 1.75 0 002 3.75v8.5c0 .966.784 1.75 1.75 1.75h8.5A1.75 1.75 0 0014 12.25v-3.5a.75.75 0 00-1.5 0v3.5a.25.25 0 01-.25.25h-8.5a.25.25 0 01-.25-.25v-8.5a.25.25 0 01.25-.25h3.5a.75.75 0 000-1.5h-3.5z"></path>
-            </svg>
-          </a>
-        </span>
-      </span></animated-image>
+<animated-image data-catalyst="" _msthidden="4" style="width: 100%;"><a target="_blank" rel="noopener noreferrer" href="https://github.com/wandb/wandb/blob/main/assets/wandb_demo_experiments.gif" data-target="animated-image.originalLink"><img src="https://github.com/wandb/wandb/raw/main/assets/wandb_demo_experiments.gif" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage"></a>
+      
 </p>
 <p align="center" dir="auto" _msttexthash="105285297" _msthash="351">显示实验中的运行次数的 W&amp;B 控制面板示例。</p>
 <p dir="auto">&nbsp;</p>
